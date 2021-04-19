@@ -2,7 +2,7 @@
 Since I have beeen working with COVID-19 related data for Portugal since March 2020, what you will find here are experiments to visualize that data
 ## Languages Used
 Using Python Plotly 
-## Depdencies 
+## Dependencies 
 Please install **Pandas** and **Plotly**
 ## DATA SOURCES
 Data published by **DGS** and **INSA** and gathered manually 
