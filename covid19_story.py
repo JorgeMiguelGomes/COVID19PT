@@ -27,8 +27,6 @@ print(df.info())
 fig = px.scatter(df, 
 	x="RT", 
 	y="VALOR",
-	width=1920,
-	height=1080,
 	animation_frame=df.DATA.astype(str),
 	animation_group="CONCELHO",
     size="VALOR", 
