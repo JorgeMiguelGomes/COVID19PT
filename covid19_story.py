@@ -1,4 +1,7 @@
+# -*- coding: utf-8 -*-
+
 # Import all libraries 
+import plotly.io as pio
 import plotly.graph_objects as go
 import pandas as pd
 import plotly.express as px
@@ -37,5 +40,8 @@ fig = px.scatter(df,
     range_y=[0,2400])
 
 
-#Plot Graph 
+# Plot Graph 
 fig.show()
+
+# Generate HTML
+pio.write_html(fig, file='covidstory.html', auto_open=True)
