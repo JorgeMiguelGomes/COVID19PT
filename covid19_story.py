@@ -24,6 +24,8 @@ print(df.info())
 fig = px.scatter(df, 
 	x="RT", 
 	y="VALOR",
+	width=1920,
+	height=1080,
 	animation_frame=df.DATA.astype(str),
 	animation_group="CONCELHO",
     size="VALOR", 
@@ -33,6 +35,7 @@ fig = px.scatter(df,
     size_max=45, 
     range_x=[0,2],
     range_y=[0,2400])
+
 
 #Plot Graph 
 fig.show()
