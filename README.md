@@ -1,5 +1,5 @@
 # COVID19 PORTUGAL 
-Having been working with COVID-19 related data for Portugal since March 2020, what you will find here are experiments to visualize that data
+Since I have beeen working with COVID-19 related data for Portugal since March 2020, what you will find here are experiments to visualize that data
 ## Languages Used
 Using Python Plotly 
 ### Issues 
